@@ -1,4 +1,4 @@
-#code to print date
+"""code to print date."""
 
 from datetime import date
 
