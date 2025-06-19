@@ -1,7 +1,7 @@
 """
 Unit tests for the main stock monitor module.
 """
-from src import main
+import main
 
 def test_get_stock_price_range():
     """
