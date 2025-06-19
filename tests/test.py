@@ -1,7 +1,7 @@
 """
 Unit tests for the main stock monitor module.
 """
-from src import main
+from src.main import main
 
 def test_get_stock_price_range():
     """
@@ -18,4 +18,3 @@ def test_monitor_stock_alerts(capsys):
     main.monitor_stock("AAPL", threshold=95, interval=0, checks=1)
     captured = capsys.readouterr()
     assert "ALERT" in captured.out
-    
