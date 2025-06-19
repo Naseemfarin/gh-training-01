@@ -1,6 +1,7 @@
 """
 A simple real-time stock price monitor simulation.
 """
+
 import random
 import time
 
