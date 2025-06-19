@@ -9,6 +9,7 @@ def get_stock_price(symbol: str) -> float:
     """
     Simulate fetching a real-time stock price (mocked).
     """
+    _ = symbol
     return round(100 + random.uniform(-5, 5), 2)
 
 def monitor_stock(symbol: str, threshold: float, interval: int = 2, checks: int = 5):
